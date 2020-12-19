@@ -1,0 +1,263 @@
+#navbar ul{
+    display: none;
+    background-color:rgb(106, 36, 238);
+    position: absolute;
+    top: 100%;
+  }
+  #navbar li:hover ul { display: block; }
+  #navbar, #navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar {
+    height: 30px;
+    background-color: rgb(57, 131, 214);
+    padding-left: 25px;
+    min-width: 470px;
+  }
+  #navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+  }
+  #navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+  }
+  #navbar ul li { float: none; }
+  #navbar li:hover { background-color: rgb(83, 68, 219); }
+  #navbar ul li:hover { background-color: rgb(25, 20, 97); }
+  #searchform{
+      padding: 5px;
+  }
+button{
+    background-color: rgb(126, 49, 250);
+    color: rgb(255, 255, 255);
+  }
+#photo{
+    background: url('pipka.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+
+    height: 200px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-indent: 15px;
+}
+#blochnaya{
+    background-color: rgb(4, 83, 168);
+    height: 300px;
+}
+#block1{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left;
+    position: relative; 
+    width: 25%;
+    left: 2%;
+}
+#block2{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left; 
+    position: relative; 
+    left: 10%;
+    width: 25%;
+}
+#block3{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left; 
+    position: relative;
+    width: 25%;
+    left: 18%;
+}
+#block11{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left;
+    position: relative; 
+    width: 20%;
+    left: 2%;
+}
+#block22{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left; 
+    position: relative; 
+    left: 5%;
+    width: 20%;
+}
+#block33{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left; 
+    position: relative;
+    width: 20%;
+    left: 8%;
+}
+#block44{
+    background-color:rgb(74, 126, 182);
+    height: 110px;
+    padding: 10px;
+    float: left; 
+    position: relative;
+    width: 20%;
+    left: 11%;
+}
+#blochnaya2{
+    background-color: rgb(4, 83, 168);
+    height: 300px;
+}
+p{
+    color: rgb(255, 255, 255);  
+}
+h2, h3{
+    color: rgb(255, 255, 255);
+    text-indent: 15px;
+}
+#bl{
+    text-align:  center;
+}
+#all{
+    background-color: rgb(44, 44, 44);
+}   
+#text{
+    text-indent: 15px;
+}
+@media (min-width: 0px) and (max-width: 393px){
+
+    #block1, #block2, #block3{
+        width: 80%;
+        height: 110px;
+        left: 0%;
+        margin: 0% 5% 5% 5%;
+    }
+    #blochnaya{
+        width: 100%;
+        height: 550px;
+    }
+    #block11, #block22, #block33, #block44{
+        width: 80%;
+        height: 110px;
+        left: 0%;
+        margin: 0% 5% 5% 5%;
+    }
+    #blochnaya2{
+        width: 100%;
+        height: 700px;
+    }
+    #searchform{
+        width: 0%;
+    }
+    #polosa{
+        height: 70px;
+        background-color: rgb(57, 131, 214);
+    }
+    #navbar {
+        height: 30px;
+        background-color: rgb(57, 131, 214);
+        padding-left: 25px;
+        min-width: 250px;
+      }
+}   
+@media (min-width: 393px) and (max-width: 960px){
+
+    #navbar {
+        height: 30px;
+        background-color: rgb(57, 131, 214);
+        padding-left: 25px;
+        min-width: 250px;
+      }
+      #block11, #block22, #block33, #block44{
+        width: 80%;
+        height: 110px;
+        left: 0%;
+        margin: 0% 5% 5% 5%;
+    }
+    #blochnaya2{
+        width: 100%;
+        height: 700px;
+    }
+    #blochnaya2{
+        width: 100%;
+        height: 750px;
+    }
+    #block1{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left;
+        position: relative; 
+        width: 25%;
+        left: 2%;
+    }
+    #block2{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left; 
+        position: relative; 
+        left: 4%;
+        width: 25%;
+    }
+    #block3{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left; 
+        position: relative;
+        width: 25%;
+        left: 6%;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1366px){
+
+    #navbar {
+        height: 30px;
+        background-color: rgb(57, 131, 214);
+        padding-left: 25px;
+        min-width: 250px;
+    }
+}  
+@media (min-width: 450px) and (max-width: 960px){      
+    #block1{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left;
+        position: relative; 
+        width: 25%;
+        left: 2%;
+    }
+    #block2{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left; 
+        position: relative; 
+        left: 6%;
+        width: 25%;
+    }
+    #block3{
+        background-color:rgb(47, 67, 88);
+        height: 110px;
+        padding: 10px;
+        float: left; 
+        position: relative;
+        width: 25%;
+        left: 10%;
+    }
+}
